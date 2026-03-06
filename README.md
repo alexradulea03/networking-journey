@@ -8,7 +8,7 @@ My approach: build it first, understand why it works second. I use GNS3 to simul
 ✅ Understand switches, routers, and firewalls conceptually
 ✅ Know how a computer works and its components
 ⚠️ Vague understanding of cables
-❌ IP addressing and subnetting — main area to improve
+❌ IP addressing and subnetting - main area to improve
 
 
 ## Lab Index
@@ -19,5 +19,5 @@ My approach: build it first, understand why it works second. I use GNS3 to simul
 
 GNS3 — network simulation software
 VPCS — lightweight virtual PCs for basic connectivity testing
-Professor Messer (N10-009) — free video course
-CompTIA N10-009 Exam Objectives — official topic checklist
+Professor Messer (N10-009) - free video course
+CompTIA N10-009 Exam Objectives - official topic checklist
