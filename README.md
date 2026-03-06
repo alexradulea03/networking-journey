@@ -12,7 +12,8 @@ My approach: build it first, understand why it works second. I use GNS3 to simul
 
 
 ## Lab Index
-LabTopicStatusLab 01Building a first network in GNS3 & getting two PCs to ping each other✅ Complete
+### LabTopicStatusLab 
+01.Building a first network in GNS3 & getting two PCs to ping each other✅ Complete
 
 ## Tools I'm using
 
