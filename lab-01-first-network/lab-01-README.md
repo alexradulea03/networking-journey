@@ -16,7 +16,7 @@ PC2 (192.168.1.2) ──┘
 Opened GNS3 and dragged two VPCS nodes, cloud and one Ethernet switch onto the canvas
 Connected PC1 and PC2 to Switch1 using cables
 Started all devices using the green play button
-<img src="lab-01-first-network/screenshots/Screenshot 2026-03-06 155829.png" alt="Network Layout" width="300">
+<img src="lab-01-first-network/screenshots/Screenshot-2026-03-06-155829.png" alt="Network Layout" width="300">
 Opened each PC's console and assigned IP addresses manually:
 ```
 PC1: ip 192.168.1.1/24
@@ -31,7 +31,7 @@ Pinged PC1 from PC2: ping 192.168.1.1
 Problem: Ping returned "not reachable" even though cables looked connected, IPs were correct and everything was running.
 Root cause: PC1 and PC2 were running on different servers — PC2 was on my local machine while PC1 was on the GNS3 VM. Even though they appeared connected on the canvas, they were on completely isolated network stacks and couldn't communicate.
 ## Fix: Moved all devices to the local server so they share the same network stack.
-![Alt text](lab-01-first-network/screenshots/Screenshot 2026-03-06 155829.png "Network Layout")
+![Alt text](lab-01-first-network/screenshots/Screenshot 2026-03-06 155829.png "New Network Layout")
 
 ## What I learned
 
