@@ -1,7 +1,7 @@
 # Lab 01 — First Network & Ping
 ### Date: 06/03/2026
-Tool: GNS3 with VPCS
-Status: ✅ Complete
+### Tool: GNS3 with VPCS
+### Status: ✅ Complete
 
 ## What I built
 A simple network with two virtual PCs connected through a switch:
