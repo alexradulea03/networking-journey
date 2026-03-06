@@ -17,7 +17,7 @@ Opened GNS3 and dragged two VPCS nodes, cloud and one Ethernet switch onto the c
 Connected PC1 and PC2 to Switch1 using cables
 Started all devices using the green play button
 
-<img src="lab-01-first-network/screenshots/Screenshot-2026-03-06-155829.png" alt="Network Layout" width="300">
+<img src="https://github.com/alexradulea03/networking-journey/blob/main/lab-01-first-network/screenshots/Screenshot-2026-03-06-155829.png" alt="Network Layout" width="300">
 
 Opened each PC's console and assigned IP addresses manually:
 ```
