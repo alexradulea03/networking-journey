@@ -16,7 +16,7 @@ PC2 (192.168.1.2) ──┘
 Opened GNS3 and dragged two VPCS nodes, cloud and one Ethernet switch onto the canvas
 Connected PC1 and PC2 to Switch1 using cables
 Started all devices using the green play button
-![Alt text](lab-01-first-network/screenshots/Screenshot 2026-03-06 155829.png?raw=true "Network Layout")
+<img src="lab-01-first-network/screenshots/Screenshot 2026-03-06 155829.png" alt="Network Layout" width="300">
 Opened each PC's console and assigned IP addresses manually:
 ```
 PC1: ip 192.168.1.1/24
