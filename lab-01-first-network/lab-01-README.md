@@ -24,7 +24,7 @@ Opened each PC's console and assigned IP addresses manually:
 PC1: ip 192.168.1.1/24
 PC2: ip 192.168.1.2/24
 ```
-<img src="[https://github.com/alexradulea03/networking-journey/blob/main/lab-01-first-network/screenshots/Screenshot-2026-03-06-155829.png](https://github.com/alexradulea03/networking-journey/blob/main/lab-01-first-network/screenshots/Screenshot-2026-03-06-162228.png)" alt="Network Layout" width="300">
+<img src="https://github.com/alexradulea03/networking-journey/blob/main/lab-01-first-network/screenshots/Screenshot-2026-03-06-162228.png" alt="Assigning-IP-Console-Output" width="300">
 
 Verified IPs with show ip
 Pinged PC1 from PC2: ping 192.168.1.1
@@ -38,7 +38,7 @@ Root cause: PC1 and PC2 were running on different servers — PC2 was on my loca
 
 ## Fix: Moved all devices to the local server so they share the same network stack.
 
-<img src="[https://github.com/alexradulea03/networking-journey/blob/main/lab-01-first-network/screenshots/Screenshot-2026-03-06-155829.png](https://github.com/alexradulea03/networking-journey/blob/main/lab-01-first-network/screenshots/Screenshot-2026-03-06-162308.png)" alt="Network Layout" width="300">
+<img src="https://github.com/alexradulea03/networking-journey/blob/main/lab-01-first-network/screenshots/Screenshot-2026-03-06-162308.png" alt="Network Layout" width="300">
 
 ## What I learned
 
