@@ -45,7 +45,7 @@ PC-Office-5 ──┘
  
 | Device | IP Address | Subnet Mask | Default Gateway |
 |---|---|---|---|
-| RT-HQ (Fa0/0) | 192.168.1.1 | 255.255.255.0 | — |
+| RT-HQ | 192.168.1.1 | 255.255.255.0 | — |
 | PC-Office-1 | 192.168.1.10 | 255.255.255.0 | 192.168.1.1 |
 | PC-Office-2 | 192.168.1.11 | 255.255.255.0 | 192.168.1.1 |
 | PC-Office-3 | 192.168.1.12 | 255.255.255.0 | 192.168.1.1 |
@@ -60,7 +60,7 @@ PC-Office-5 ──┘
  
 I opened Cisco Packet Tracer and created a new blank project. This office space will be named Construciton Inc.
  
-![Step 1 — New blank Packet Tracer project]()
+![Step 1 — New blank Packet Tracer project](screenshots/01-new-project.png)
  
 ---
  
@@ -68,7 +68,7 @@ I opened Cisco Packet Tracer and created a new blank project. This office space 
  
 From the device panel at the bottom, I have selected **Routers** and dragged a `2911` router onto the workspace.
  
-![Step 2 — Router added to workspace]()
+![Step 2 — Router added to workspace](screenshots/02-add-router.png)
  
 ---
  
@@ -76,7 +76,7 @@ From the device panel at the bottom, I have selected **Routers** and dragged a `
  
 I clicked the router to open its config panel. I've navigated to **Config → Settings** and set the **Display Name** and **Hostname** to `RT-HQ`. This represents Construction Inc.'s main office router.
  
-![Step 3 — Router named RT-HQ]()
+![Step 3 — Router named RT-HQ](screenshots/03-name-router.png)
  
 ---
  
@@ -84,7 +84,7 @@ I clicked the router to open its config panel. I've navigated to **Config → Se
  
 From the device panel, I selected **Switches** and dragged a `2960` switch onto the workspace below the router. I chose the 2960 as they are known for long term reliabilty and a truly viable option for small to medium sized networks.
  
-![Step 4 — Switch added to workspace]()
+![Step 4 — Switch added to workspace](screenshots/04-add-swtich.png)
  
 ---
  
@@ -92,7 +92,7 @@ From the device panel, I selected **Switches** and dragged a `2960` switch onto 
  
 I clicked the switch → **Config → Settings** and set the **Display Name** and **Hostname** to `SW-HQ`.
  
-![Step 5 — Switch named SW-HQ]()
+![Step 5 — Switch named SW-HQ](screenshots/05-name-switch.png)
  
 ---
  
@@ -100,7 +100,7 @@ I clicked the switch → **Config → Settings** and set the **Display Name** an
  
 From the device panel, I selected **End Devices** and dragged 5 PCs onto the workspace. Arranged them per rooms around the office.
  
-![Step 6 — Five PCs added to workspace]()
+![Step 6 — Five PCs added to workspace](screenshots/07-name-pcs.png)
  
 ---
  
@@ -108,7 +108,7 @@ From the device panel, I selected **End Devices** and dragged 5 PCs onto the wor
  
 Click each PC → **Config → Settings** and set the **Display Name** to `PC-Office-1` through `PC-Office-5`.
  
-![Step 7 — PCs named PC-Office-1 to PC-Office-5]()
+![Step 7 — PCs named PC-Office-1 to PC-Office-5](screenshots/08-pc-port-selection-to-sw.png)
  
 ---
  
@@ -116,8 +116,8 @@ Click each PC → **Config → Settings** and set the **Display Name** to `PC-Of
  
 Selected the **Connections** tool (lightning bolt icon) and chose the **Copper Straight-Through** cable. I then clicked each PC's `FastEthernet0` port and connect it to any available port on `SW-HQ`.
  
-![Step 8 — PCs port selection to SW-HQ]()
-![Step 8 — PCs connected to SW-HQ]()
+![Step 8 — PCs port selection to SW-HQ](screenshots/09-pcs-connected-to-sw.png)
+![Step 8 — PCs connected to SW-HQ](screenshots/10-sw-connected-to-rt-port.png)
  
 ---
  
@@ -125,8 +125,8 @@ Selected the **Connections** tool (lightning bolt icon) and chose the **Copper S
  
 Used another **Copper Straight-Through** cable to connect `SW-HQ` (any free port that i've had) to `RT-HQ` on `GigabitEthernet0/0`.
  
-![Step 9 — SW-HQ connected to RT-HQ port]()
-![Step 9 — SW-HQ port to RT-HQ]()
+![Step 9 — SW-HQ connected to RT-HQ port](screenshots/11-sw-port-to-rt.png)
+![Step 9 — SW-HQ port to RT-HQ](screenshots/12-sw-connected-to-rt.png)
 ![Step 9 — SW-HQ connected to RT-HQ]()
  
 ---
@@ -144,7 +144,7 @@ interface GigabitEthernet0/0
 end
 ```
 
-![Step 10 — Router interface configured via CLI]()
+![Step 10 — Router interface configured via CLI](screenshots/13-router-interface-configured-via-CLI.png)
 (i've accidentally called for FastEthernet but RT-HQ only has GigabitEthernet)
 
 ---
@@ -153,7 +153,7 @@ end
  
 Clicked each PC → **Desktop → IP Configuration** and assigned the IP, subnet mask, and default gateway from the addressing table above.
  
-![Step 11 — IP configuration on PC-Office-1]()
+![Step 11 — IP configuration on PC-Office-1](screenshots/14-ip-config-on-pc-office-1.png)
  
 ---
  
@@ -168,7 +168,7 @@ ping 192.168.1.11
  
 A successful reply confirms the network is working.
  
-![Step 12 — Successful ping between PCs]()
+![Step 12 — Successful ping between PCs](screenshots/15-successful-ping-on-net.png)
  
 ---
  
