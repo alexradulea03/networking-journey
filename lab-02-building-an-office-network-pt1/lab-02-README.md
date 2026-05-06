@@ -98,7 +98,7 @@ I clicked the switch → **Config → Settings** and set the **Display Name** an
  
 ### Step 6 — Add the PCs
  
-From the device panel, I selected **End Devices** and dragged 5 PCs onto the workspace. Arrange them in a row below the switch.
+From the device panel, I selected **End Devices** and dragged 5 PCs onto the workspace. Arranged them per rooms around the office.
  
 ![Step 6 — Five PCs added to workspace]()
  
