@@ -49,4 +49,4 @@ A switch alone is enough for devices on the same network to talk, no router need
 
 
 ## Next objectives
-Add a second network and a router & find out why devices on different networks can't talk through a switch alone.
+Add a second network and a router & find out why devices on different networks can't talk through a switch alone. I will start building an office network for a fictional company.
