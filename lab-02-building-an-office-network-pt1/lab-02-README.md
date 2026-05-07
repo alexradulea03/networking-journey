@@ -192,3 +192,7 @@ A successful reply confirms the network is working.
 | Verification | Basic ping | Ping to gateway + other PCs |
  
 ---
+
+## What is next...
+
+Construction Inc. needs a new website to attract more clients. They want to rely on their own servers and hosting. I will be integrating a server in their office building in my next lab.
