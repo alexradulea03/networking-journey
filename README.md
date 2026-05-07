@@ -21,8 +21,8 @@ My approach is: learn, build it first, understand why it works second. I use Cis
 
 ## Tools I'm using/used
 
-GNS3 — network simulation software 
-Cisco Packet Tracer - Cisco's network simulation software
-VPCS — Lightweight virtual PCs for basic connectivity testing
-David Bombal's and others - free video courses
-CCNA 200-301 Exam Objectives - topic checklist
+GNS3 — network simulation software     
+Cisco Packet Tracer - Cisco's network simulation software  
+VPCS — Lightweight virtual PCs for basic connectivity testing  
+David Bombal's and others - free video courses  
+CCNA 200-301 Exam Objectives - topic checklist  
