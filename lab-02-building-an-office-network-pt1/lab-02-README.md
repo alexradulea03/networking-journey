@@ -196,3 +196,5 @@ A successful reply confirms the network is working.
 ## What is next...
 
 Construction Inc. needs a new website to attract more clients. They want to rely on their own servers and hosting. I will be integrating a server in their office building in my next lab.
+
+We will also configure DHCP so that clients (PCs and any other laptop or phone that come into the office can recieve a new IP automatically with no technician intervention) I will keep infrastructure devices like printers with a static IP.
