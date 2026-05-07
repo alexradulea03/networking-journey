@@ -6,10 +6,10 @@ My approach is: learn, build it first, understand why it works second. I use Cis
 
 ## My starting point
 
-✅ Understand switches, routers, and firewalls conceptually
-✅ Know how a computer works and its components
-⚠️ Vague understanding of cables
-⚠️ IP addressing and subnetting - main area to improve but fluent.
+✅ Understand switches, routers, and firewalls conceptually  
+✅ Know how a computer works and its components  
+⚠️ Vague understanding of cables  
+⚠️ IP addressing and subnetting - main area to improve but fluent.  
 
 
 ## Lab Index
