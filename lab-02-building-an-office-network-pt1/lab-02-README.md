@@ -127,7 +127,6 @@ Used another **Copper Straight-Through** cable to connect `SW-HQ` (any free port
  
 ![Step 9 — SW-HQ connected to RT-HQ port](screenshots/11-sw-port-to-rt.png)
 ![Step 9 — SW-HQ port to RT-HQ](screenshots/12-sw-connected-to-rt.png)
-![Step 9 — SW-HQ connected to RT-HQ]()
  
 ---
  
