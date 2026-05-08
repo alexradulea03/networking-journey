@@ -17,7 +17,7 @@ My approach is: learn, build it first, understand why it works second. I use Cis
 01.Building a first network in GNS3 & getting two PCs to ping each other✅ Complete   
 02.Building my first office network for Construction Inc.✅ Complete  
 03.Construction Inc.'s is expanding their goals, so will their network.✅ Complete  
-04.Constructoin Inc. is going regional. We will need more offices.🚧 In progress
+04.Building on Construction Inc, the network will need segmentation.🚧 In progress
 
 ## My finishing point
 
