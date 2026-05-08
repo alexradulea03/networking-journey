@@ -19,6 +19,10 @@ My approach is: learn, build it first, understand why it works second. I use Cis
 03.Construction Inc.'s is expanding their goals, so will their network.✅ Complete  
 04.Constructoin Inc. is going regional. We will need more offices.🚧 In progress
 
+## My finishing point
+
+Pass the CCNA 200-301 exam and be able to design, build, troubleshoot, and explain a multi-site enterprise network from scratch without looking anything up.
+
 ## Tools I'm using/used
 
 GNS3 — network simulation software     
