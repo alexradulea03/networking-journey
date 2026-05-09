@@ -512,7 +512,7 @@ On a Cisco switch, a port cannot be both an access port and a trunk port. I will
 ```
 lab-04-construction-inc-vlans/
 ├── README.md
-├── construction-inc-pt3.pkt        ← Packet Tracer save file
+├── construction-inc-vlans.pkt        ← Packet Tracer save file
 └── screenshots/
     ├── 01-open-lab03.png
     ├── 02-create-vlans.png
