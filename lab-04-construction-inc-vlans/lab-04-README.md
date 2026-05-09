@@ -453,9 +453,9 @@ show mac address-table
 
 ---
 
-### Troubleshooting & Lessons Learned
+## Troubleshooting & Lessons Learned
 
-## Trunk Port — Wrong Port Assumed
+### Trunk Port — Wrong Port Assumed
 
 When configuring the trunk link in Step 6, I assumed the uplink to RT-HQ was on Fa0/24 based on the lab guide. After running show interfaces trunk and getting no output, and then running show interfaces FastEthernet0/24 switchport, I found:
 
@@ -472,7 +472,7 @@ show cdp neighbors
 ```
 show cdp neighbors is especially useful in real Cisco environments as it shows exactly which device is connected to which port without needing physical access to trace cables.
 
-## Fa0/6 Conflict — Access Port vs Trunk Port
+### Fa0/6 Conflict — Access Port vs Trunk Port
 
 During the VLAN 30 access port assignment, I incorrectly assigned Fa0/6 as an access port on VLAN 30, not knowing it was the uplink to the router. Later when trying to set it as a trunk, the switch threw an error because the port already had an access VLAN configured.
 
