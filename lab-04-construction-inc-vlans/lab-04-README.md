@@ -129,7 +129,7 @@ show vlan brief
 
 We should see VLAN 10, 20, and 30 listed with their names.
 
-![Step 2 — VLANs created and verified with show vlan brief](screenshots/02-create-vlans.png)
+![Step 2 — VLANs created and verified with show vlan brief](screenshots/02-created-vlans.png)
 
 ---
 
