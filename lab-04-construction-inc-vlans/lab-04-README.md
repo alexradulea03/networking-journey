@@ -51,9 +51,9 @@ VLANs solve this by creating separate broadcast domains on the same physical swi
 
 | Device | VLAN | IP Address | Assignment |
 |---|---|---|---|
-| RT-HQ (subinterface Fa0/0.10) | 10 | 192.168.10.1 | Static |
-| RT-HQ (subinterface Fa0/0.20) | 20 | 192.168.20.1 | Static |
-| RT-HQ (subinterface Fa0/0.30) | 30 | 192.168.30.1 | Static |
+| RT-HQ (subinterface Ga0/0.10) | 10 | 192.168.10.1 | Static |
+| RT-HQ (subinterface Ga0/0.20) | 20 | 192.168.20.1 | Static |
+| RT-HQ (subinterface Ga0/0.30) | 30 | 192.168.30.1 | Static |
 | SRV-HQ | 30 | 192.168.30.2 | Static |
 | PRT-HQ | 30 | 192.168.30.50 | Static |
 | PC-Office-1 | 10 | 192.168.10.100+ | DHCP |
@@ -68,7 +68,7 @@ VLANs solve this by creating separate broadcast domains on the same physical swi
 
 ```
          RT-HQ
-         Fa0/0 (trunk)
+         Ga0/0 (trunk)
             |
          SW-HQ
     ┌───────┼───────┐
