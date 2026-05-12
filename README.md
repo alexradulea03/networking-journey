@@ -1,32 +1,112 @@
 # networking-journey
 
-A hands-on learning journey toward the CCNA certification.
+A hands-on lab portfolio documenting my journey toward the Cisco CCNA certification. Every lab is built from scratch, tested, and documented with step-by-step instructions, CLI output, and screenshots, no copy-paste, no shortcuts.
 
-My approach is: learn, build it first, understand why it works second. I use Cisco Packet Tracer to simulate real networks, break things on purpose, fix them, and then read the theory behind what I just experienced.
+---
 
-## My starting point
+## About
 
-✅ Understand switches, routers, and firewalls conceptually  
-✅ Know how a computer works and its components  
-⚠️ Vague understanding of cables  
-⚠️ IP addressing and subnetting - main area to improve but fluent.  
+Every lab here represents something I built, broke, debugged, and learned from.
 
+I started with the basics: connecting two computers. Now I'm configuring WAN links, dynamic routing protocols, and multi-site networks. The goal is the CCNA, but the real goal is to be able to walk into any network environment and know what I'm doing.
 
-## Lab Index
- 
-01.Building a first network in GNS3 & getting two PCs to ping each other✅ Complete   
-02.Building my first office network for Construction Inc.✅ Complete  
-03.Construction Inc.'s is expanding their goals, so will their network.✅ Complete  
-04.Building on Construction Inc, the network will need segmentation.🚧 In progress
+---
 
-## My finishing point
+## Tools
 
-Pass the CCNA 200-301 exam and be able to design, build, troubleshoot, and explain a multi-site enterprise network from scratch without looking anything up.
+| Tool | Purpose |
+|---|---|
+| Cisco Packet Tracer | Primary lab environment for CCNA topics |
+| GNS3 | Used in early labs, returning for advanced topics |
+| GitHub | Lab documentation and portfolio |
 
-## Tools I'm using/used
+---
 
-GNS3 — network simulation software     
-Cisco Packet Tracer - Cisco's network simulation software  
-VPCS — Lightweight virtual PCs for basic connectivity testing  
-David Bombal's and others - free video courses  
-CCNA 200-301 Exam Objectives - topic checklist  
+## Lab Progress
+
+| Lab | Title | Scenario | Key Concepts | Status |
+|---|---|---|---|---|
+| 01 | [Connecting Two PCs](lab-01-connecting-two-pcs/) | — | Basic connectivity, crossover cable, GNS3 interface | ✅ Done |
+| 02 | [Construction Inc. — Basic Office Network](lab-02-construction-inc/) | Construction Inc. | Star topology, static IPs, switch, router, Packet Tracer interface | ✅ Done |
+| 03 | [Construction Inc. — Server & Services](lab-03-construction-inc-pt2/) | Construction Inc. | DHCP, DNS, HTTP, FTP, network printer, static vs dynamic addressing | ✅ Done |
+| 04 | [Construction Inc. — VLANs](lab-04-construction-inc-vlans/) | Construction Inc. | VLANs, access ports, trunk ports, Router-on-a-Stick, inter-VLAN routing | ✅ Done |
+| 05 | [Riverstone Legal — WAN & Routing](lab-05-riverstone-legal-wan/) | Riverstone Legal | Serial WAN link, /30 subnetting, static routing, RIPv2, multi-site design | ✅ Done |
+| 06 | Coming soon | Riverstone Legal | ACLs, standard vs extended, traffic filtering, SSH access control | 🔄 In progress |
+| 07 | Coming soon | TBD | OSPF, dynamic routing, link-state vs distance-vector | 📋 Planned |
+| 08 | Coming soon | TBD | NAT/PAT, internet simulation, overload | 📋 Planned |
+
+---
+
+## Concepts Covered So Far
+
+- Physical and logical network topologies
+- IP addressing and subnetting (including /30 for WAN links)
+- Static IP assignment vs DHCP
+- DNS, HTTP, FTP server configuration
+- Network printing over a LAN
+- VLAN design and segmentation
+- 802.1Q trunking and Router-on-a-Stick
+- Inter-VLAN routing
+- Serial WAN links and clock rate
+- Static routing (`ip route`)
+- RIPv2 dynamic routing (`no auto-summary`)
+- Multi-site network design
+
+---
+
+## Certification Roadmap
+
+```
+[In Progress] CCNA (200-301)
+              ↓
+          [Planned] CompTIA Security+
+```
+
+**CCNA Topics Checklist**
+
+- [x] Network fundamentals and topologies
+- [x] IP addressing and subnetting
+- [x] Switching — VLANs, trunking
+- [x] Routing — static, RIP
+- [ ] Routing — OSPF
+- [ ] ACLs — standard and extended
+- [ ] NAT / PAT
+- [ ] Network security fundamentals
+- [ ] Wireless basics
+- [ ] Automation and programmability
+
+---
+
+## What's Next
+
+**Lab 06 — ACLs (Access Control Lists)**
+Building on the Riverstone Legal two-site network from Lab 05. Adding traffic filtering rules to control what branch PCs can and cannot access at HQ — the primary tool for network security policy on Cisco devices.
+
+**Lab 07 — OSPF**
+Replacing RIPv2 with OSPF in the Riverstone Legal network. Understanding why link-state routing protocols replaced distance-vector in real-world networks.
+
+**Lab 08 — NAT/PAT**
+Simulating internet access — translating private addresses to a public IP so internal hosts can reach the outside world.
+
+---
+
+## Lab Structure
+
+Each lab folder contains:
+
+```
+lab-XX-name/
+├── README.md          ← full step-by-step documentation
+├── *.pkt              ← Packet Tracer save file (or GNS3 project or n/a)
+└── screenshots/       ← screenshots referenced in the README
+```
+
+---
+
+## Note on Mistakes
+
+Every troubleshooting section in these labs documents real mistakes made during the build — wrong port assumptions, misconfigured interfaces, syntax errors. They are left in intentionally to show my troubleshooting abilities.
+
+---
+
+*Built by Alex — Timisoara, Romania*
