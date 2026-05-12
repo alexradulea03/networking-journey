@@ -2,8 +2,6 @@
 
 A hands-on lab portfolio documenting my journey toward the Cisco CCNA certification. Every lab is built from scratch, tested, and documented with step-by-step instructions, CLI output, and screenshots, no copy-paste, no shortcuts.
 
----
-
 ## About
 
 Every lab here represents something I built, broke, debugged, and learned from.
