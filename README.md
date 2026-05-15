@@ -66,8 +66,8 @@ I started with the basics: connecting two computers. Now I'm configuring WAN lin
 - [x] IP addressing and subnetting
 - [x] Switching — VLANs, trunking
 - [x] Routing — static, RIP
-- [ ] Routing — OSPF
-- [ ] ACLs — standard and extended
+- [x] Routing — OSPF
+- [x] ACLs — standard and extended
 - [ ] NAT / PAT
 - [ ] Network security fundamentals
 - [ ] Wireless basics
