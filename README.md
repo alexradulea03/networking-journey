@@ -29,8 +29,8 @@ I started with the basics: connecting two computers. Now I'm configuring WAN lin
 | 03 | [Construction Inc. — Server & Services](lab-03-construction-inc-pt2/) | Construction Inc. | DHCP, DNS, HTTP, FTP, network printer, static vs dynamic addressing | ✅ Done |
 | 04 | [Construction Inc. — VLANs](lab-04-construction-inc-vlans/) | Construction Inc. | VLANs, access ports, trunk ports, Router-on-a-Stick, inter-VLAN routing | ✅ Done |
 | 05 | [Riverstone Legal — WAN & Routing](lab-05-riverstone-legal-wan/) | Riverstone Legal | Serial WAN link, /30 subnetting, static routing, RIPv2, multi-site design | ✅ Done |
-| 06 | Coming soon | Riverstone Legal | ACLs, standard vs extended, traffic filtering, SSH access control | 🔄 In progress |
-| 07 | Coming soon | TBD | OSPF, dynamic routing, link-state vs distance-vector | 📋 Planned |
+| 06 | [Riverstone Legal — WAN & Routing](lab-06-riverstone-legal-acls/) | Riverstone Legal | ACLs, standard vs extended, traffic filtering, SSH access control | ✅ Done |
+| 07 | Coming soon | TBD | OSPF, dynamic routing, link-state vs distance-vector | 🔄 In progress |
 | 08 | Coming soon | TBD | NAT/PAT, internet simulation, overload | 📋 Planned |
 
 ---
