@@ -77,9 +77,6 @@ I started with the basics: connecting two computers. Now I'm configuring WAN lin
 
 ## What's Next
 
-**Lab 06 — ACLs (Access Control Lists)**
-Building on the Riverstone Legal two-site network from Lab 05. Adding traffic filtering rules to control what branch PCs can and cannot access at HQ — the primary tool for network security policy on Cisco devices.
-
 **Lab 07 — OSPF**
 Replacing RIPv2 with OSPF in the Riverstone Legal network. Understanding why link-state routing protocols replaced distance-vector in real-world networks.
 
